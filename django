@@ -10,4 +10,31 @@ Tools apa saja yang dibutuhkan untuk memulai dengan Django.
 - Ketiga Web Browser karena kita membuat aplikasi web yang hasilnya harus dilihat lewat browser maka kita membutuhkan tools ini. 
 - Keempat Python. 
 - Terakhir yang kita butuhkan adalah Django itu sendiri.
+4. MEMBUAT PROJECT APLIKASI PERPUSTAKAAN
+ 1. cd Desktop / #Untuk menyimpan Project di Halaman Desktop
+ 2. Django-admin startproject perpus #Perintah ini untuk membuat Project baru Bernama Perpus
+ 3. Didalam Folder Project Perpus terdapat :
+  -Manage.py #Ini adalah file Perintah untuk berinteraksi dengan Project Django
+  - _init_.py #Untuk memberitahukan Python bahwa Perpus adalah sebuah Package
+  - Setting.py #Berisikan File Konfigurasi / Pengaturan seperti Konfigurasi Template, Database, dll
+  - Urls.py #Berisikan pola – pola URL
+  - Wsgi.py #Untuk development Project yang melibatkan Web server yang kompetibel dengan Wsgi / Mengonline-kan Project
+ 4. Python manage.py runserver #Untuk menjalankan Project dan mendapatkan alamat Project Django yang akan dibuat
+5. APA ITU BASIC ROUTING
+ 1. Client memberikan Request untuk mengakses Halaman Buku pada Server Django namun
+    PAGE NOT FOUND. Karena URL Buku yang di Request belum ada di Server.
+ 2. Untuk dapat melayani Request dari Client, harus dibuatkan URL baru
+ 3. Jika sudah, maka Request dari Client akan dapat terpenuhi
+6.1 MEMBUAT APPS
+Apps adalah sebuah aplikasi pada Django yang mempunyai Model Database, View, Template, dan URLCons. Setiap Project di Django mempunyai Apps dan bisa lebih dari satu Apps
+6.2 MEMBUAT VIEWS
+Alur yang digunakan untuk membuat Views ini adalah Client, URLConf, View dan memberikan Response kepada Client. Views diciptakan untuk memenuhi Request dari Client.
+7. TEMPLATE
+ Melakukan konfigurasi dan membuat templte sederhana 
+8. STATIC FILES
+   Tahap ini cukup mudah dilakukan karena kita hanya perlu memindahkan file – file CSS dan Java Script kedalam Folder static yang telah di Set Up. Download Bootstrap   dan Query yang akan digunakan. Selanjutnya panggil file – file tersebut di Base.html
+
+
+
+
 
